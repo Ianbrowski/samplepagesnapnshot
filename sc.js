@@ -47,7 +47,14 @@ setInterval(changeBg, 3000);
   } else if (urlParams.get('status') === 'error') {
       alert("Oops! Something went wrong. Please try again.");
   }
-
+  
+function selectBundle(bundleName) {
+    // This updates the hidden input inside your form
+    document.getElementById('selected-bundle-input').value = bundleName;
+    
+    // Testing: This will show in your browser's console (F12)
+    console.log("Selected bundle is now: " + bundleName);
+}
 
 // Portfolio lightbox
 const lightbox = document.getElementById('lightbox');

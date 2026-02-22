@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crimson Lens Studio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav id="navbar">
+      <div class="logo"><span class="span1-5">Snap'n Shot</span> Photography</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="heroh1"><span class="span1">Snap'n Shot</span> <span class="span2"> Photography</span></h1>
+      <p>Capturing Moments. Creating Stories.</p>
+      <div class="cta-buttons">
+        <a href="#portfolio" class="btnp">View Portfolio</a>
+        <a href="#contact" class="btn btn-outline">Book a Shoot</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Crimson Lens</h2>
+    <p class="about-paragraph">Crimson Lens Studio specializes in capturing your most cherished moments with cinematic precision. With years of experience in events and creative photography, we transform your memories into timeless stories.</p>
+  </section>
+
+  <!-- Services Section -->
+<section id="services" class="section">
+  <h2>Services</h2>
+  <div class="service-cards">
+    
+    <div class="card">
+      <i class="fa-solid fa-camera-retro card-icon"></i>
+      <h3>Event Photography</h3>
+      <p class="justify-text">Concerts, birthdays, corporate events – we cover it all.</p>
+    </div>
+
+    <div class="card">
+      <i class="fa-solid fa-user-tie card-icon"></i>
+      <h3>Photoshoots</h3>
+      <p class="justify-text">Portraits, couples, creative shoots, and themed sessions.</p>
+    </div>
+
+    <div class="card">
+      <i class="fa-solid fa-briefcase card-icon"></i>
+      <h3>Commercial & Brand Shoots</h3>
+      <p class="justify-text">Professional photography for brands, products, and campaigns.</p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Portfolio Section -->
+<section id="portfolio" class="section">
+  <h2>Portfolio</h2>
+  <div class="portfolio-grid">
+    <img src="https://picsum.photos/id/1011/800/600" alt="Portfolio 1" class="portfolio-item wide">
+    <img src="https://picsum.photos/id/1012/400/600" alt="Portfolio 2" class="portfolio-item tall">
+    <img src="https://picsum.photos/id/1013/400/300" alt="Portfolio 3" class="portfolio-item">
+    <img src="https://picsum.photos/id/1015/400/300" alt="Portfolio 4" class="portfolio-item">
+    <img src="https://picsum.photos/id/1016/800/800" alt="Portfolio 5" class="portfolio-item big">
+    <img src="https://picsum.photos/id/1018/400/300" alt="Portfolio 6" class="portfolio-item">
+    <img src="https://picsum.photos/id/1019/400/600" alt="Portfolio 7" class="portfolio-item tall">
+    <img src="https://picsum.photos/id/1020/400/300" alt="Portfolio 8" class="portfolio-item">
+    <img src="https://picsum.photos/id/1011/800/600" alt="Portfolio 1" class="portfolio-item wide">
+    <img src="https://picsum.photos/id/1012/400/600" alt="Portfolio 2" class="portfolio-item tall">
+    <img src="https://picsum.photos/id/1013/400/300" alt="Portfolio 3" class="portfolio-item">
+    <img src="https://picsum.photos/id/1015/400/300" alt="Portfolio 4" class="portfolio-item">
+    <img src="https://picsum.photos/id/1016/800/800" alt="Portfolio 5" class="portfolio-item big">
+    <img src="https://picsum.photos/id/1018/400/300" alt="Portfolio 6" class="portfolio-item">
+    <img src="https://picsum.photos/id/1019/400/600" alt="Portfolio 7" class="portfolio-item tall">
+    <img src="https://picsum.photos/id/1020/400/300" alt="Portfolio 8" class="portfolio-item">
+  </div>
+</section>
+
+  <!-- Package Section -->
+ <section id="packages" class="section">
+  <h2>Pricing</h2>
+  <div class="package-cards">
+    <div class="package-card">
+      <h3>Basic Package</h3>
+      <div class="price">₱2,499</div>
+      <ul class="inclusions-list">
+        <li>3 hours event coverage</li>
+        <li>50 edited high-resolution photos</li>
+        <li>Online gallery access</li>
+        <li>Basic color correction</li>
+        <li>7-day delivery</li>
+      </ul>
+      <a href="#contact" class="book-btn">Book Now</a>
+    </div>
+
+    <div class="package-card featured">
+      <div class="popular-badge">MOST POPULAR</div>
+      <h3>Standard Package</h3>
+      <div class="price">₱4,499</div>
+      <ul class="inclusions-list">
+        <li>6 hours event coverage</li>
+        <li>150 edited high-resolution photos</li>
+        <li>Online gallery access</li>
+        <li>Advanced editing & retouching</li>
+        <li>Priority delivery (3 days)</li>
+        <li>Print-ready files</li>
+      </ul>
+      <a href="#contact" class="book-btn white-btn">Book Now</a>
+    </div>
+
+    <div class="package-card">
+      <h3>Premium Package</h3>
+      <div class="price">₱14,499</div>
+      <ul class="inclusions-list">
+        <li>Full event coverage (10+ hours)</li>
+        <li>300+ edited high-resolution photos</li>
+        <li>Online gallery access</li>
+        <li>Highlight edits & cinematic effects</li>
+        <li>Same-day previews</li>
+        <li>Custom requests included</li>
+        <li>Second photographer</li>
+        <li>Photo album included</li>
+      </ul>
+      <a href="#contact" class="book-btn">Book Now</a>
+    </div>
+  </div>
+</section>
+
+ <section id="inclusions" class="section">
+  <h2 class="incl-title">What's <span class="span2">Included</span></h2>
+  <p class="incl-subtitle">Every package includes these essential services:</p>
+  
+  <div class="inclusions-grid">
+    <div class="inclusion-item">
+      <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+      <span>Professional photo editing</span>
+    </div>
+    <div class="inclusion-item">
+      <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+      <span>High-resolution digital files</span>
+    </div>
+    <div class="inclusion-item">
+      <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+      <span>Online delivery & gallery access</span>
+    </div>
+    <div class="inclusion-item">
+      <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+      <span>Pre-shoot client consultation</span>
+    </div>
+    <div class="inclusion-item">
+      <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+      <span>Color correction & enhancement</span>
+    </div>
+    <div class="inclusion-item">
+      <div class="check-circle"><i class="fa-solid fa-check"></i></div>
+      <span>Flexible scheduling options</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2 class="section-title">Inquiry Form</h2>
+  <div class="contact-container">
+    
+    <form action="mailer.php" method="POST" id="bookingForm" class="inquiry-form">
+      
+      <div class="form-row">
+        <div class="form-group">
+          <label>Contact Person</label>
+          <input type="text" name="contact_person" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+          <label>Contact Number</label>
+          <input type="tel" name="contact_number" placeholder="09XX XXX XXXX" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Facebook Name</label>
+          <input type="text" name="fb_name" placeholder="Profile Name or Link" required>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" name="email" placeholder="email@example.com" required>
+        </div>
+      </div>
+
+      <hr class="form-divider">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Celebration / Event</label>
+          <input type="text" name="celebration" placeholder="e.g. 1st Birthday, Wedding" required>
+        </div>
+        <div class="form-group">
+          <label>Name of Celebrant</label>
+          <input type="text" name="celebrant_name" placeholder="Name">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Date of Event</label>
+          <input type="date" name="event_date" required>
+        </div>
+        <div class="form-group">
+          <label>Start Time</label>
+          <input type="time" name="start_time" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Venue Address</label>
+        <input type="text" name="venue_address" placeholder="Complete Address" required>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Landmark</label>
+          <input type="text" name="landmark" placeholder="Near which building?">
+        </div>
+        <div class="form-group">
+          <label>Setting</label>
+          <select name="setting" required>
+            <option value="Indoor">Indoor</option>
+            <option value="Outdoor">Outdoor</option>
+            <option value="Both">Both</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Theme</label>
+        <input type="text" name="theme" placeholder="e.g. Bohemian, Minimalist, Disney">
+      </div>
+
+      <div class="form-group">
+        <label>Additional Message</label>
+        <textarea name="message" placeholder="Tell us more about your vision..."></textarea>
+      </div>
+
+      <input type="hidden" name="selected_bundle" id="selected-bundle-input" value="No Bundle Selected">
+      
+      <button type="submit" class="submit-btn">Send Booking Request</button>
+    </form>
+
+<div class="promo-selection">
+        <h3>Avail a Bundle</h3>
+        <div class="bundle-category">
+          <label class="bundle-card">
+            <input type="radio" name="bundle_choice" value="Essential" onclick="selectBundle('Essential')">
+            <div class="bundle-info">
+              <span class="bundle-name">Essential</span>
+              <span class="bundle-price">₱8,000</span>
+            </div>
+          </label>
+
+          <label class="bundle-card">
+            <input type="radio" name="bundle_choice" value="Premium" onclick="selectBundle('Premium')">
+            <div class="bundle-info">
+              <span class="bundle-name">Premium</span>
+              <span class="bundle-price">₱15,000</span>
+            </div>
+          </label>
+
+          <label class="bundle-card">
+            <input type="radio" name="bundle_choice" value="Elite Luxe" onclick="selectBundle('Elite Luxe')">
+            <div class="bundle-info">
+              <span class="bundle-name">Elite Luxe</span>
+              <span class="bundle-price">₱30,000</span>
+            </div>
+          </label>
+        </div>
+      </div>
+     <script>
+function selectBundle(bundleName) {
+    // This updates the hidden input inside your form
+    document.getElementById('selected-bundle-input').value = bundleName;
+    
+    // Testing: This will show in your browser's console (F12)
+    console.log("Selected bundle is now: " + bundleName);
+}
+</script>
+    </div>
+</section>
+
+
+<?php if(isset($_GET['status'])): ?>
+    <div id="status-message" class="<?php echo $_GET['status'] == 'success' ? 'msg-success' : 'msg-error'; ?>">
+        <?php 
+            if($_GET['status'] == 'success') echo "✨ Message sent! We'll contact you soon.";
+            else echo "❌ Error sending message. Please try again.";
+        ?>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            const msg = document.getElementById('status-message');
+            if(msg) msg.style.display = 'none';
+        }, 5000);
+    </script>
+<?php endif; ?>
+
+<div class="socials">
+  <a href="https://www.facebook.com/profile.php?id=61585947223105" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.facebook.com/profile.php?id=61585947223105" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+</div>
+
+    <footer>
+      <p>&copy; 2026 Crimson Lens Studio. All rights reserved.</p>
+    </footer>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+  </div>
+
+
+  <script src="sc.js"></script>
+</body>
+</html>
