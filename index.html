@@ -174,25 +174,7 @@
   <textarea name="message" placeholder="Message" required></textarea>
   <button type="submit">Send Message</button>
 </form>
-<script>
 
-</script>
-
-<?php if(isset($_GET['status'])): ?>
-    <div id="status-message" class="<?php echo $_GET['status'] == 'success' ? 'msg-success' : 'msg-error'; ?>">
-        <?php 
-            if($_GET['status'] == 'success') echo "✨ Message sent! We'll contact you soon.";
-            else echo "❌ Error sending message. Please try again.";
-        ?>
-    </div>
-
-    <script>
-        setTimeout(() => {
-            const msg = document.getElementById('status-message');
-            if(msg) msg.style.display = 'none';
-        }, 5000);
-    </script>
-<?php endif; ?>
 
 <div class="socials">
   <a href="https://www.facebook.com/profile.php?id=61585947223105" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
@@ -214,3 +196,4 @@
   <script src="sc.js"></script>
 </body>
 </html>
+
