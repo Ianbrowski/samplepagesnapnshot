@@ -289,15 +289,20 @@
           </label>
         </div>
       </div>
-     <script>
-function selectBundle(bundleName) {
-    // This updates the hidden input inside your form
-    document.getElementById('selected-bundle-input').value = bundleName;
     
-    // Testing: This will show in your browser's console (F12)
-    console.log("Selected bundle is now: " + bundleName);
+<script>
+function selectBundle(bundleName) {
+    // 1. Find the hidden input
+    var hiddenInput = document.getElementById('selected-bundle-input');
+    
+    // 2. Change its value to the bundle name
+    hiddenInput.value = bundleName;
+    
+    // 3. Optional: Alert to confirm it worked before you hit submit
+    console.log("Input updated to: " + hiddenInput.value);
 }
 </script>
+    
     </div>
 </section>
 
@@ -338,3 +343,4 @@ function selectBundle(bundleName) {
   <script src="sc.js"></script>
 </body>
 </html>
+
